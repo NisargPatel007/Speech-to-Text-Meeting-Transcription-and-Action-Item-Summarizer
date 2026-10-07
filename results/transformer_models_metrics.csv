@@ -1,0 +1,7 @@
+Model,Split,Accuracy,Precision,Recall,Action_Item_F1,Macro_F1,ROC_AUC
+Distilbert,Validation,0.9716,0.9723,0.9491,0.9606,0.9692,0.9851
+Distilbert,Weak Test,0.968,0.9685,0.9329,0.9504,0.9634,0.9858
+Distilbert,Human-Verified Test,0.935,0.967,0.898,0.9312,0.9348,0.966
+Roberta,Validation,0.9689,0.9745,0.9393,0.9566,0.9662,0.9843
+Roberta,Weak Test,0.9609,0.97,0.9091,0.9385,0.9549,0.9777
+Roberta,Human-Verified Test,0.945,0.978,0.9082,0.9418,0.9448,0.96

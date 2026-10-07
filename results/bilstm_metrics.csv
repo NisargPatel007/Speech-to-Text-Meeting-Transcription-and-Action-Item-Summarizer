@@ -1,0 +1,4 @@
+Model,Split,Accuracy,Precision,Recall,Action_Item_F1,Macro_F1,ROC_AUC
+BiLSTM,Validation,0.7698,0.6614,0.7564,0.7057,0.7584,0.8398
+BiLSTM,Weak Test,0.7779,0.6316,0.7792,0.6977,0.7611,0.8561
+BiLSTM,Human-Verified Test,0.77,0.7708,0.7551,0.7629,0.7698,0.8514

@@ -1,0 +1,18 @@
+[fig1_class_balance]
+Class 0 (Non-Action Items) comprises 6,399 utterances (65.8%), while Class 1 (Action Items) constitutes 3,322 utterances (34.2%). This demonstrates a moderate ~2:1 natural conversational class imbalance, confirming that action item commitments are selective speech acts. Class-weighted loss functions and Macro-F1 evaluation are essential.
+
+[fig2_utterance_length_hist]
+Action items exhibit an average length of 9.2 tokens, compared to 6.3 tokens for non-action utterances. Both distributions exhibit positive skewness, with action items peaking around 10-18 tokens due to compound verb phrases and task specifications (e.g. 'I will coordinate with the team'). A transformer max_length of 128 tokens safely captures >99.4% of all utterances without truncating relevant context.
+
+[fig3_wordclouds_by_class]
+Lexical representations reveal sharp domain differences: Class 1 (Action Items) prominently features deontic and modal markers ('need', 'will', 'must', 'can', 'should') coupled with procedural and task terms ('council', 'bill', 'move', 'amend', 'report', 'staff', 'public'). Conversely, Class 0 is dominated by discursive discussion terms ('think', 'know', 'say', 'thank', 'time', 'issue'). This confirms that retaining modal verbs during stopword filtering preserves key predictive signals.
+
+[fig4_top_ngrams]
+Collocation analysis shows strong legislative and procedural commitments: Top bigrams include 'make sure', 'long beach', 'council member', while leading trigrams highlight binding resolutions such as 'want make sure', 'grand jury report', 'city long beach'. These contiguous phrases substantiate the hypothesis that n-gram features (uni+bigrams) in TF-IDF will yield high discriminative power for linear classifiers.
+
+[fig5_speaker_contribution]
+Meeting roles demonstrate distinct speech act profiles: While generic council members account for the largest raw volume of discussion, specific leadership roles (such as 'Mr. Huntoon') exhibit the highest action item density (39.1%). Procedural chairs and designated sponsors initiate the vast majority of binding motions, proving that speaker identity correlates with task allocation.
+
+[fig6_action_item_temporal_density]
+Action item density exhibits a distinctive U-shaped and closing-phase progression, peaking in the 10-20% decile at 39.6%. The early meeting phase (0-30%) establishes background and preliminary discussion, the mid-phase resolves deliberations, and the final 30% of the meeting concentrates motions, formal votes, and post-adjournment assignment of next steps.
+

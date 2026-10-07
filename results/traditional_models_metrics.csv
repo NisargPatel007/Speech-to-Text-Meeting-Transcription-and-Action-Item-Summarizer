@@ -1,0 +1,5 @@
+Model,Split,Accuracy,Precision,Recall,Action_Item_F1,Macro_F1,ROC_AUC
+Logistic Regression,Validation,0.76,0.6501,0.7408,0.6925,0.7478,0.8338
+Logistic Regression,Weak Test,0.7765,0.6345,0.7554,0.6897,0.7575,0.86
+Linear SVM,Validation,0.7638,0.74,0.5439,0.627,0.7271,0.82
+Linear SVM,Weak Test,0.7893,0.7231,0.5823,0.6451,0.7476,0.8466

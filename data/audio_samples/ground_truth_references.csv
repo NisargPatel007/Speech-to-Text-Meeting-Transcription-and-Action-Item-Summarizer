@@ -1,0 +1,9 @@
+clip_id,filename,speaker,reference_text,filepath
+clip_01,clip_01.wav,Project Manager,We need to finalize the quarterly budget review by Friday afternoon.,data/audio_samples\clip_01.wav
+clip_02,clip_02.wav,Lead Developer,I will deploy the new authentication service to the staging server tomorrow morning.,data/audio_samples\clip_02.wav
+clip_03,clip_03.wav,UI Designer,Can you send me the updated wireframes before our sync meeting next Tuesday?,data/audio_samples\clip_03.wav
+clip_04,clip_04.wav,Council Member,I move that the committee approve the resolution on public park maintenance.,data/audio_samples\clip_04.wav
+clip_05,clip_05.wav,QA Engineer,We must execute regression tests on the mobile application prior to release.,data/audio_samples\clip_05.wav
+clip_06,clip_06.wav,Marketing Lead,I'll draft the press announcement and share it with the team by five o'clock.,data/audio_samples\clip_06.wav
+clip_07,clip_07.wav,City Clerk,Please record that Councilwoman Gilmore voted in favor of the amended zoning ordinance.,data/audio_samples\clip_07.wav
+clip_08,clip_08.wav,Data Scientist,We need to evaluate both transformer architectures on the human verified test benchmark.,data/audio_samples\clip_08.wav

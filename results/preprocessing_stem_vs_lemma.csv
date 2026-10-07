@@ -1,0 +1,3 @@
+Technique,Execution Time (s),Throughput (samples/s),Vocabulary Size,Vocab Reduction (%),"Example ('scheduling', 'delivered')"
+NLTK Porter Stemmer,0.3695,2706.2,1944,27.19,"'schedul', 'deliv'"
+spaCy Lemmatizer,4.0473,247.1,2093,21.61,"'schedule', 'deliver'"

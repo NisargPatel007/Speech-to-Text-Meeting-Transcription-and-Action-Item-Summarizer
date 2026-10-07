@@ -1,0 +1,11 @@
+=== END-TO-END DEMO OUTPUT ===
+
+TRANSCRIPT:
+We need to finalize the quarterly budget review by Friday afternoon.
+
+SUMMARY:
+We need to finalize the quarterly budget review by Friday afternoon, says the city's finance director. The city's budget review is expected to be completed by the end of the week. The budget will be released to the public on Friday afternoon.
+
+ACTION ITEMS:
+                                        task_description                      owner                     deadline                                                             raw_text      speaker  confidence
+finalize the quarterly budget review by Friday afternoon Joint Team / Working Group quarterly, Friday, afternoon We need to finalize the quarterly budget review by Friday afternoon. Lead Speaker       0.999
